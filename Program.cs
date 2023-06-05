@@ -25,16 +25,18 @@
         //    }
         //}
 
-        for(int i= 0; i <9; i++)
+        for(int i= 1; i <5; i++)
         {
+
 
             Console.WriteLine("*");
             
-            for(int j=i; j<9; j++)
+            for (int j=1; j<=i; j++)
             {
                 Console.Write("*");
+                
             }
-
+            
         }
 
 
