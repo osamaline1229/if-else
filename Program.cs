@@ -27,20 +27,12 @@
 
         for(int i= 0; i<10; i++)
         {
-            for(i= 0; i<11; i++)
-            {
-                Console.Write("*"); 
-            }
-            Console.WriteLine();
+            Console.WriteLine("*");
+            Console.Write($"1111{i}1111");
 
-            for(i= 0; i<9;i++)
-            {
-                Console.WriteLine("*         *");
-            }
-            for (i = 0; i < 11; i++)
-            {
-                Console.Write("*");
-            }
+            
+            
+
         }
 
 
