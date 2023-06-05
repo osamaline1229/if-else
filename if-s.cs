@@ -17,12 +17,23 @@
         //khjkhjk
         //
 
-        for (int i = 0; i < 5; i++)
+        //for (int i = 0; i < 5; i++)
+        //{
+        //    for(int j = 0; j < i; j++)
+        //    {
+        //       Console.WriteLine(j);
+        //    }
+        //}
+
+        for(int i=0; i<5; i++)
         {
-            for(int j = 0; j < i; j++)
+            Console.WriteLine("i body");
+            Console.WriteLine(" i = " + i);
+            for(int j=0; j<5; j++)
             {
-               Console.WriteLine(j);
+                Console.WriteLine("j = " + j);
             }
-        }
+            Console.WriteLine("After j loop ");
+        }    
     }
 }
